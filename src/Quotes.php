@@ -24,7 +24,7 @@ class Quotes
      */
     public static function inspire()
     {
-        return self::format(Arr::random(self::INSPIRING));
+        return Arr::random(self::INSPIRING);
     }
 
     /**
