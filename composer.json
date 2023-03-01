@@ -1,0 +1,30 @@
+{
+    "name": "idez/inspire",
+    "description": ":package_description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Time da Idez",
+            "email": "developers@idez.com.br",
+            "homepage": "https://idez.com.br"
+        }
+    ],
+    "keywords": ["Laravel", "Inspire"],
+    "require": {
+        "illuminate/support": "~9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Idez\\Inspire\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Idez\\Inspire\\Tests\\": "tests"
+        }
+    }
+}
