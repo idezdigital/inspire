@@ -11,7 +11,7 @@
     ],
     "keywords": ["Laravel", "Inspire"],
     "require": {
-        "illuminate/support": "~9"
+        "illuminate/support": "~10"
     },
     "require-dev": {
         "phpunit/phpunit": "~9.0",
